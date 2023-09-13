@@ -1,16 +1,7 @@
-# c_v
+# Curriculum_vitae_app
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+a flutter app that allows viewing of C.V and updating dynamically immediately after editing steps: 
+I created a CV class to hold initial data that will be displayed on the first screen. 
+I created an instance of the class in my View screen and edit screen created four different controllers in the edit screen to enable users edit the initials(I mapped the initials to the editing controllers respectively). 
+No third party library used.
+I Created a call back function that will return the updated c.V back to the View screen, this makes it update dynamically. learning was fun oops.
